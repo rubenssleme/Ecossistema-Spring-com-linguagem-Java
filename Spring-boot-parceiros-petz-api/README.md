@@ -22,11 +22,11 @@ Para Testar pode usar o Firefox Mozzila
 
 http://localhost:8080/parceiros
 
-http://localhost:8080 /clientes
+http://localhost:8080/clientes
 
-http://localhost:8080 /categorias
+http://localhost:8080/categorias
 
-http://localhost:8080 /pedidos
+http://localhost:8080/pedidos
 # SWAGGER
 Com a aplicação em execução acessar:
 http://localhost:8080/swagger-ui.html
@@ -39,7 +39,7 @@ na raiz do projeto
 para consultar as tabelas
 
 acesse:
-http://localhost:8080/h2 console
+http://localhost:8080/h2-console
 
 spring.datasource.url = jdbc:h2:mem:parceirosdb
 
