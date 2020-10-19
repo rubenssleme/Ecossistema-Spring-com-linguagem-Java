@@ -44,5 +44,4 @@ http://localhost:8080/h2-console
 spring.datasource.url = jdbc:h2:mem:parceirosdb
 
 UserName : sa
-
 Password:
