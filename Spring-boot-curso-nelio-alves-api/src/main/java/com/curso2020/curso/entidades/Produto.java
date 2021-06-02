@@ -95,6 +95,7 @@ public class Produto implements Serializable {
 	public Set<Categoria> getCategorias() {
 		return categorias;
 	}
+	
 	@JsonIgnore
 	public Set<Pedido> getPedidos(){
 		Set<Pedido> set = new HashSet<>();
