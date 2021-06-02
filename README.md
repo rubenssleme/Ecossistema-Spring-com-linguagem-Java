@@ -9,19 +9,19 @@ Certifique-se de ter instalado:
 * Maven 3
 * Docker ([Install](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/)  | [Configure](https://docs.docker.com/v17.09/engine/installation/linux/linux-postinstall/))
 
-#####Pré-requisitos de desenvolvimento
+##### Pré-requisitos de desenvolvimento
 * Configurar o SonarLint no IntelliJ IDEA [SonarLint website](https://www.sonarlint.org/intellij)
 * Testes unitarios para UseCase e Resource
   * Como criar Testes
 
-######Comandos Maven
+###### Comandos Maven
 * Compilar project mvn compile
 * Limpar diretorio Target mvn clean
 * Executar testes do projeto mvn test
 * Executar projeto mvn spring-boot:run
 * Instalar pacotes mvn install
 
-######Sobre o Makefile
+###### Sobre o Makefile
 O objetivo de Makefile é definir regras de compilação para projetos de software. Tais regras são definidas em arquivo chamado Makefile.
 
 O programa make interpreta o conteúdo do Makefile e executa as regras lá definidas.
@@ -30,7 +30,7 @@ O programa make interpreta o conteúdo do Makefile e executa as regras lá defin
     * Exibe as opções do menu: make help
     * Constrói o projeto, gera o container e inicia a aplicação: make up
 
-#####Definicao de Testes
+##### Definicao de Testes
 Utilizar Gherkin para descrever especificações de cenários de testes, baseado na regra de negocio.
 
 * O padrão é descrito em forma de "steps":
