@@ -16,9 +16,9 @@ MAVEN 3.6.3 ou superior
 ```
 git clone https://github.com/rubenssleme/Ecossistema-Spring-com-linguagem-Java
 
-cd Ecossistema-Spring-com-linguagem-Java 
+cd Ecossistema-Spring-com-linguagem-Java/Spring-boot-curso-nelio-alves-api
 
-./mvnw spring-boot:run
+mvn spring-boot:run
 
 API será executada em 
 
